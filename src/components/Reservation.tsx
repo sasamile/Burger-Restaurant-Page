@@ -4,7 +4,7 @@ import ReservationForm from "./Chefs/ReservationForm";
 
 const Reservation = () => {
   return (
-    <div className="pt-[5rem] bg-center bg-cover relative  mt-[2rem] pb-[5rem] mb-[3rem] bg-[url('src/assets/images/bg-black.jpg')]">
+    <div className="pt-[5rem] bg-center bg-cover relative  mt-[2rem] pb-[5rem] mb-[3rem] bg-[url('/bg-black.jpg')]">
       {/**overplay */}
       <div className="absolute w-full h-full bg-[#000000a6] inset-0"/>
       <div className="w-[80%] relative z-[20] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-[3rem]">
